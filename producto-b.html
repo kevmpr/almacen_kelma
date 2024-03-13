@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <meta> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Almacen de comida y bebidas">
+    <!--title-->
+    <title>Almacen Kelma</title>
+    <link rel="icon" type="image/vnd.microsoft.icon" href="img/icon.ico">
+    <!--preload-->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" as="font"
+        crossorigin="crossorigin">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="preload" href="css/main.css" as="style">
+    <link rel="stylesheet" href="css/main.css">
+    <!--prefetch-->
+    <link rel="prefetch" href="otros.html" as="document">
+</head>
+
+<body>
+    <header id="inicio" class="header">
+        <div class="container">
+            <div class="bar">
+                <div class="logo">
+                    <a class="logo__anchor" href="index.html">
+                        <h1 class="logo__name">Almacen <span class="logo__bold">Kelma</span></h1>
+                    </a>
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        class="logo__icon icon icon-tabler icon-tabler-shopping-cart" width="40" height="40"
+                        viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFD639" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                        <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                        <path d="M17 17h-11v-14h-2" />
+                        <path d="M6 5l14 1l-1 7h-13" />
+                    </svg>
+                </div> <!--.logo-->
+                <div class="search">
+                    <input class="search__input" type="text" placeholder="¿Que estas buscando?">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="search__icon icon icon-tabler icon-tabler-search"
+                        width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFD639" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                        <path d="M21 21l-6 -6" />
+                    </svg>
+                </div> <!--search-->
+            </div> <!--.bar-->
+            <nav class="nav">
+                <a href="registrate.html" class="nav__link">Registrate</a>
+                <a href="alimentos.html" class="nav__link">Alimentos</a>
+                <a href="bebidas.html" class="nav__link nav__link--active">Bebidas</a>
+                <a href="otros.html" class="nav__link">Otros</a>
+                <a href="nosotros.html" class="nav__link">Sobre nosotros</a>
+            </nav>
+            <div class="header__container">
+                <div class="header__text">
+                    <h2 class="text1">El más grande del pais</h2>
+                    <p class="text2">Hace tu comprar semanal o mensual. Si pasas el minimo de compra, te hacemos un
+                        descuento</p>
+                </div>
+            </div>
+        </div> <!--.container-->
+    </header>
+    <div class="main-contentAlimentos main-contentPro">
+        <main class="main">
+            <h2 class="main__titleAlimentos">Bebidas</h2>
+            <hr>
+            <div class="main__container-productoA">
+                <div class="proA-img">
+                    <img class="img-a" src="img/product-21.webp" alt="">
+                </div>
+                <div class="proA-info">
+                    <h3 class="title-a">Agua Villavicencio</h3>
+                    <p class="p-a">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis accusantium consectetur est accusamus aspernatur quidem doloremque.</p>
+                    <div class="proA-cant">
+                        <p class="price-a">$ 199,00</p>
+                        <input class="input-a" type="number" placeholder="Cantidad" min="0">
+                    </div>
+                    <input class="button button-proA" type="submit" value="Añadir al carrito">
+                </div>
+            </div> <!--.main__container-->
+        </main>
+        <aside class="aside">
+            <div class="aside__containerAlimentos">
+            </div> <!--aside__container-->
+        </aside>
+    </div> <!--.main-contentAlimentos-->
+    <footer class="footer">
+        <div class="footer__container">
+            <a class="footer__anchor" href="#inicio">
+                Copyright 2022 - Almacen Kelma S.A
+            </a>
+            <a class="footer__anchor" href="https://www.instagram.com/kev.mpr03/?hl=es" target="_blank">
+                Instagram
+            </a>
+            <a class="footer__anchor" href="tel:01101011">
+                Telefono
+            </a>
+            <a class="footer__anchor" href="mailto:usuario@gmail.com">
+                E-mail
+            </a>
+        </div>
+    </footer>
+    <script src="js/modernizr.js"></script>
+</body>
+
+</html>

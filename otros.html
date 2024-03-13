@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <meta> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Almacen de comida y bebidas">
+    <!--title-->
+    <title>Almacen Kelma</title>
+    <link rel="icon" type="image/vnd.microsoft.icon" href="img/icon.ico">
+    <!--preload-->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" as="font"
+        crossorigin="crossorigin">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="preload" href="css/main.css" as="style">
+    <link rel="stylesheet" href="css/main.css">
+    <!--prefetch-->
+    <link rel="prefetch" href="nosotros.html" as="document">
+</head>
+
+<body>
+    <header id="inicio" class="header">
+        <div class="container">
+            <div class="bar">
+                <div class="logo">
+                    <a class="logo__anchor" href="index.html">
+                        <h1 class="logo__name">Almacen <span class="logo__bold">Kelma</span></h1>
+                    </a>
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        class="logo__icon icon icon-tabler icon-tabler-shopping-cart" width="40" height="40"
+                        viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFD639" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                        <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                        <path d="M17 17h-11v-14h-2" />
+                        <path d="M6 5l14 1l-1 7h-13" />
+                    </svg>
+                </div> <!--.logo-->
+                <div class="search">
+                    <input class="search__input" type="text" placeholder="¿Que estas buscando?">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="search__icon icon icon-tabler icon-tabler-search"
+                        width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFD639" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                        <path d="M21 21l-6 -6" />
+                    </svg>
+                </div> <!--search-->
+            </div> <!--.bar-->
+            <nav class="nav">
+                <a href="registrate.html" class="nav__link">Registrate</a>
+                <a href="alimentos.html" class="nav__link">Alimentos</a>
+                <a href="bebidas.html" class="nav__link">Bebidas</a>
+                <a href="otros.html" class="nav__link nav__link--active">Otros</a>
+                <a href="nosotros.html" class="nav__link">Sobre nosotros</a>
+            </nav>
+            <div class="header__container">
+                <div class="header__text">
+                    <h2 class="text1">El más grande del pais</h2>
+                    <p class="text2">Hace tu comprar semanal o mensual. Si pasas el minimo de compra, te hacemos un
+                        descuento</p>
+                </div>
+            </div>
+        </div> <!--.container-->
+    </header>
+    <div class="main-contentAlimentos">
+        <main class="main">
+            <h2 class="main__titleAlimentos">Otros</h2>
+            <hr>
+            <div class="main__info">
+                <p class="info__quantity">20 productos</p>
+                <div class="info-order">
+                    <label class="info-order__name">Ordenar por</label>
+                    <select class="info-order__select">
+                        <option value="Relevancia">Relevancia</option>
+                        <option value="Más reciente">Más reciente</option>
+                        <option value="Más antiguo">Más antiguo</option>
+                        <option value="Precio más alto">Precio más alto</option>
+                        <option value="Precio más bajo">Precio más bajo</option>
+                        <option value="A-Z">A-Z</option>
+                        <option value="Z-A">Z-A</option>
+                    </select>
+                </div>
+            </div>
+            <div class="main__container-alimentos">
+                <div class="product">
+                    <a href="producto-o.html">
+                        <img class="product__image" src="img/product-41.webp" alt="producto-41" title="Jabon liquido">
+                        <div class="product__info">
+                            <p class="product__name">Jabon liquido</p>
+                            <p class="product__price">$1705,00</p>
+                        </div>
+                        <div class="product__icon">
+                            <div class="icon-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart"
+                                    width="48" height="48" viewBox="0 0 24 24" stroke-width="1.8" stroke="#FFD639"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                            <div class="icon-2">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="icon icon-tabler icon-tabler-shopping-cart" width="48" height="48"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 17h-11v-14h-2" />
+                                    <path d="M6 5l14 1l-1 7h-13" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div> <!--.product-->
+                <div class="product">
+                    <a href="producto-o.html">
+                        <img class="product__image" src="img/product-42.webp" alt="producto-42" title="Quitamanchas">
+                        <div class="product__info">
+                            <p class="product__name">Quitamanchas</p>
+                            <p class="product__price">$1332,00</p>
+                        </div>
+                        <div class="product__icon">
+                            <div class="icon-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart"
+                                    width="48" height="48" viewBox="0 0 24 24" stroke-width="1.8" stroke="#FFD639"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                            <div class="icon-2">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="icon icon-tabler icon-tabler-shopping-cart" width="48" height="48"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 17h-11v-14h-2" />
+                                    <path d="M6 5l14 1l-1 7h-13" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div> <!--.product-->
+                <div class="product">
+                    <a href="producto-o.html">
+                        <img class="product__image" src="img/product-43.webp" alt="producto-43" title="Lustramuebles">
+                        <div class="product__info">
+                            <p class="product__name">Lustramuebles</p>
+                            <p class="product__price">$692,00</p>
+                        </div>
+                        <div class="product__icon">
+                            <div class="icon-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart"
+                                    width="48" height="48" viewBox="0 0 24 24" stroke-width="1.8" stroke="#FFD639"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                            <div class="icon-2">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="icon icon-tabler icon-tabler-shopping-cart" width="48" height="48"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 17h-11v-14h-2" />
+                                    <path d="M6 5l14 1l-1 7h-13" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div> <!--.product-->
+                <div class="product">
+                    <a href="producto-o.html">
+                        <img class="product__image" src="img/product-44.webp" alt="producto-44" title="Limpiador liquido">
+                        <div class="product__info">
+                            <p class="product__name">Limpiador liquido</p>
+                            <p class="product__price">$1095,00</p>
+                        </div>
+                        <div class="product__icon">
+                            <div class="icon-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart"
+                                    width="48" height="48" viewBox="0 0 24 24" stroke-width="1.8" stroke="#FFD639"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                            <div class="icon-2">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="icon icon-tabler icon-tabler-shopping-cart" width="48" height="48"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 17h-11v-14h-2" />
+                                    <path d="M6 5l14 1l-1 7h-13" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div> <!--.product-->
+                <div class="product">
+                    <a href="producto-o.html">
+                        <img class="product__image" src="img/product-45.webp" alt="producto-45" title="Limpiador de vidrios">
+                        <div class="product__info">
+                            <p class="product__name">Limpiador de vidrios</p>
+                            <p class="product__price">$215,00</p>
+                        </div>
+                        <div class="product__icon">
+                            <div class="icon-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart"
+                                    width="48" height="48" viewBox="0 0 24 24" stroke-width="1.8" stroke="#FFD639"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                            <div class="icon-2">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="icon icon-tabler icon-tabler-shopping-cart" width="48" height="48"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 17h-11v-14h-2" />
+                                    <path d="M6 5l14 1l-1 7h-13" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div> <!--.product-->
+                <div class="product">
+                    <a href="producto-o.html">
+                        <img class="product__image" src="img/product-46.webp" alt="producto-46" title="Detergente">
+                        <div class="product__info">
+                            <p class="product__name">Detergente</p>
+                            <p class="product__price">$563,00</p>
+                        </div>
+                        <div class="product__icon">
+                            <div class="icon-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart"
+                                    width="48" height="48" viewBox="0 0 24 24" stroke-width="1.8" stroke="#FFD639"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                            <div class="icon-2">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="icon icon-tabler icon-tabler-shopping-cart" width="48" height="48"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 17h-11v-14h-2" />
+                                    <path d="M6 5l14 1l-1 7h-13" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div> <!--.product-->
+                <div class="product">
+                    <a href="producto-o.html">
+                        <img class="product__image" src="img/product-47.webp" alt="producto-47" title="Palillos">
+                        <div class="product__info">
+                            <p class="product__name">Palillos</p>
+                            <p class="product__price">$150,00</p>
+                        </div>
+                        <div class="product__icon">
+                            <div class="icon-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart"
+                                    width="48" height="48" viewBox="0 0 24 24" stroke-width="1.8" stroke="#FFD639"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                            <div class="icon-2">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="icon icon-tabler icon-tabler-shopping-cart" width="48" height="48"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 17h-11v-14h-2" />
+                                    <path d="M6 5l14 1l-1 7h-13" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div> <!--.product-->
+                <div class="product">
+                    <a href="producto-o.html">
+                        <img class="product__image" src="img/product-48.webp" alt="producto-48" title="Velas">
+                        <div class="product__info">
+                            <p class="product__name">Velas</p>
+                            <p class="product__price">$559,00</p>
+                        </div>
+                        <div class="product__icon">
+                            <div class="icon-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart"
+                                    width="48" height="48" viewBox="0 0 24 24" stroke-width="1.8" stroke="#FFD639"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                            <div class="icon-2">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="icon icon-tabler icon-tabler-shopping-cart" width="48" height="48"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 17h-11v-14h-2" />
+                                    <path d="M6 5l14 1l-1 7h-13" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div> <!--.product-->
+                <div class="product">
+                    <a href="producto-o.html">
+                        <img class="product__image" src="img/product-49.webp" alt="producto-49" title="Lavandina">
+                        <div class="product__info">
+                            <p class="product__name">Lavandina</p>
+                            <p class="product__price">$377,00</p>
+                        </div>
+                        <div class="product__icon">
+                            <div class="icon-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart"
+                                    width="48" height="48" viewBox="0 0 24 24" stroke-width="1.8" stroke="#FFD639"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                            <div class="icon-2">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="icon icon-tabler icon-tabler-shopping-cart" width="48" height="48"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 17h-11v-14h-2" />
+                                    <path d="M6 5l14 1l-1 7h-13" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div> <!--.product-->
+                <div class="product">
+                    <a href="producto-o.html">
+                        <img class="product__image" src="img/product-50.webp" alt="producto-50" title="Rollo cocina elegante">
+                        <div class="product__info">
+                            <p class="product__name">Rollo cocina elegante</p>
+                            <p class="product__price">$476,00</p>
+                        </div>
+                        <div class="product__icon">
+                            <div class="icon-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart"
+                                    width="48" height="48" viewBox="0 0 24 24" stroke-width="1.8" stroke="#FFD639"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                            <div class="icon-2">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="icon icon-tabler icon-tabler-shopping-cart" width="48" height="48"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 17h-11v-14h-2" />
+                                    <path d="M6 5l14 1l-1 7h-13" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div> <!--.product-->
+                <div class="product">
+                    <a href="producto-o.html">
+                        <img class="product__image" src="img/product-51.webp" alt="producto-51" title="Rollo cocina elite">
+                        <div class="product__info">
+                            <p class="product__name">Rollo cocina elite</p>
+                            <p class="product__price">$497,00</p>
+                        </div>
+                        <div class="product__icon">
+                            <div class="icon-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart"
+                                    width="48" height="48" viewBox="0 0 24 24" stroke-width="1.8" stroke="#FFD639"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                            <div class="icon-2">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="icon icon-tabler icon-tabler-shopping-cart" width="48" height="48"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 17h-11v-14h-2" />
+                                    <path d="M6 5l14 1l-1 7h-13" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div> <!--.product-->
+                <div class="product">
+                    <a href="producto-o.html">
+                        <img class="product__image" src="img/product-52.webp" alt="producto-52" title="Papel higienico elegante">
+                        <div class="product__info">
+                            <p class="product__name">Papel higienico elegante</p>
+                            <p class="product__price">$678,00</p>
+                        </div>
+                        <div class="product__icon">
+                            <div class="icon-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart"
+                                    width="48" height="48" viewBox="0 0 24 24" stroke-width="1.8" stroke="#FFD639"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                            <div class="icon-2">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="icon icon-tabler icon-tabler-shopping-cart" width="48" height="48"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 17h-11v-14h-2" />
+                                    <path d="M6 5l14 1l-1 7h-13" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div> <!--.product-->
+                <div class="product">
+                    <a href="producto-o.html">
+                        <img class="product__image" src="img/product-53.webp" alt="producto-53"
+                            title="Papel higienico">
+                        <div class="product__info">
+                            <p class="product__name">Papel higienico elite</p>
+                            <p class="product__price">$799,00</p>
+                        </div>
+                        <div class="product__icon">
+                            <div class="icon-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart"
+                                    width="48" height="48" viewBox="0 0 24 24" stroke-width="1.8" stroke="#FFD639"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                            <div class="icon-2">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="icon icon-tabler icon-tabler-shopping-cart" width="48" height="48"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 17h-11v-14h-2" />
+                                    <path d="M6 5l14 1l-1 7h-13" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div> <!--.product-->
+                <div class="product">
+                    <a href="producto-o.html">
+                        <img class="product__image" src="img/product-54.webp" alt="producto-54" title="Desinfectante">
+                        <div class="product__info">
+                            <p class="product__name">Desinfectante</p>
+                            <p class="product__price">$419,00</p>
+                        </div>
+                        <div class="product__icon">
+                            <div class="icon-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart"
+                                    width="48" height="48" viewBox="0 0 24 24" stroke-width="1.8" stroke="#FFD639"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                            <div class="icon-2">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="icon icon-tabler icon-tabler-shopping-cart" width="48" height="48"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 17h-11v-14h-2" />
+                                    <path d="M6 5l14 1l-1 7h-13" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div> <!--.product-->
+                <div class="product">
+                    <a href="producto-o.html">
+                        <img class="product__image" src="img/product-55.webp" alt="producto-55" title="Balde">
+                        <div class="product__info">
+                            <p class="product__name">Balde</p>
+                            <p class="product__price">$979,00</p>
+                        </div>
+                        <div class="product__icon">
+                            <div class="icon-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart"
+                                    width="48" height="48" viewBox="0 0 24 24" stroke-width="1.8" stroke="#FFD639"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                            <div class="icon-2">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="icon icon-tabler icon-tabler-shopping-cart" width="48" height="48"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 17h-11v-14h-2" />
+                                    <path d="M6 5l14 1l-1 7h-13" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div> <!--.product-->
+                <div class="product">
+                    <a href="producto-o.html">
+                        <img class="product__image" src="img/product-56.webp" alt="producto-56" title="Balde escurridor">
+                        <div class="product__info">
+                            <p class="product__name">Balde escurridor</p>
+                            <p class="product__price">$2586,00</p>
+                        </div>
+                        <div class="product__icon">
+                            <div class="icon-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart"
+                                    width="48" height="48" viewBox="0 0 24 24" stroke-width="1.8" stroke="#FFD639"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                            <div class="icon-2">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="icon icon-tabler icon-tabler-shopping-cart" width="48" height="48"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 17h-11v-14h-2" />
+                                    <path d="M6 5l14 1l-1 7h-13" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div> <!--.product-->
+                <div class="product">
+                    <a href="producto-o.html">
+                        <img class="product__image" src="img/product-57.webp" alt="producto-57" title="Cesto hogar">
+                        <div class="product__info">
+                            <p class="product__name">Cesto hogar</p>
+                            <p class="product__price">$2190,00</p>
+                        </div>
+                        <div class="product__icon">
+                            <div class="icon-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart"
+                                    width="48" height="48" viewBox="0 0 24 24" stroke-width="1.8" stroke="#FFD639"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                            <div class="icon-2">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="icon icon-tabler icon-tabler-shopping-cart" width="48" height="48"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 17h-11v-14h-2" />
+                                    <path d="M6 5l14 1l-1 7h-13" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div> <!--.product-->
+                <div class="product">
+                    <a href="producto-o.html">
+                        <img class="product__image" src="img/product-58.webp" alt="producto-58" title="Cesto oficina">
+                        <div class="product__info">
+                            <p class="product__name">Cesto oficina</p>
+                            <p class="product__price">$2490,00</p>
+                        </div>
+                        <div class="product__icon">
+                            <div class="icon-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart"
+                                    width="48" height="48" viewBox="0 0 24 24" stroke-width="1.8" stroke="#FFD639"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                            <div class="icon-2">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="icon icon-tabler icon-tabler-shopping-cart" width="48" height="48"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 17h-11v-14h-2" />
+                                    <path d="M6 5l14 1l-1 7h-13" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div> <!--.product-->
+                <div class="product">
+                    <a href="producto-o.html">
+                        <img class="product__image" src="img/product-59.webp" alt="producto-59" title="Escoba">
+                        <div class="product__info">
+                            <p class="product__name">Escoba</p>
+                            <p class="product__price">$710,00</p>
+                        </div>
+                        <div class="product__icon">
+                            <div class="icon-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart"
+                                    width="48" height="48" viewBox="0 0 24 24" stroke-width="1.8" stroke="#FFD639"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                            <div class="icon-2">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="icon icon-tabler icon-tabler-shopping-cart" width="48" height="48"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 17h-11v-14h-2" />
+                                    <path d="M6 5l14 1l-1 7h-13" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div> <!--.product-->
+                <div class="product">
+                    <a href="producto-o.html">
+                        <img class="product__image" src="img/product-60.webp" alt="producto-60" title="Secador">
+                        <div class="product__info">
+                            <p class="product__name">Secador</p>
+                            <p class="product__price">$540,00</p>
+                        </div>
+                        <div class="product__icon">
+                            <div class="icon-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart"
+                                    width="48" height="48" viewBox="0 0 24 24" stroke-width="1.8" stroke="#FFD639"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                            <div class="icon-2">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="icon icon-tabler icon-tabler-shopping-cart" width="48" height="48"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                    <path d="M17 17h-11v-14h-2" />
+                                    <path d="M6 5l14 1l-1 7h-13" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div> <!--.product-->
+            </div> <!--.main__container-->
+        </main>
+        <aside class="aside">
+            <div class="aside__containerAlimentos">
+            </div> <!--aside__container-->
+        </aside>
+    </div> <!--.main-contentAlimentos-->
+    <footer class="footer">
+        <div class="footer__container">
+            <a class="footer__anchor" href="#inicio">
+                Copyright 2022 - Almacen Kelma S.A
+            </a>
+            <a class="footer__anchor" href="https://www.instagram.com/kev.mpr03/?hl=es" target="_blank">
+                Instagram
+            </a>
+            <a class="footer__anchor" href="tel:01101011">
+                Telefono
+            </a>
+            <a class="footer__anchor" href="mailto:usuario@gmail.com">
+                E-mail
+            </a>
+        </div>
+    </footer>
+    <script src="js/modernizr.js"></script>
+</body>
+
+</html>
